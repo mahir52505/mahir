@@ -1,0 +1,42 @@
+You can create a **pandas Series** where the month's numbers are the data, and their names are the index values like this:
+
+### **Python Code:**
+
+```python
+python
+CopyEdit
+import pandas as pd
+
+# Creating a Series with month numbers as data and month names as index
+months = pd.Series(
+    [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+    index=['January', 'February', 'March', 'April', 'May', 'June',
+           'July', 'August', 'September', 'October', 'November', 'December']
+)
+
+print(months)
+
+```
+
+### **Output:**
+
+```
+go
+CopyEdit
+January       1
+February      2
+March         3
+April         4
+May           5
+June          6
+July          7
+August        8
+September     9
+October      10
+November     11
+December     12
+dtype: int64
+
+```
+
+This creates a **Series** where the month names act as indexes, and their respective numbers are the values. 🚀
