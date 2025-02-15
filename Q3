@@ -1,0 +1,36 @@
+Here is a **Python program** that creates a **pandas Series** using a dictionary, where the batch groups (**MatMIE, MatDAIS, COMIE, COMEC**) are the index, and the number of students in each group are the values.
+
+### **Python Code:**
+
+```python
+
+import pandas as pd
+
+# Creating a dictionary with batch groups and student numbers
+students_dict = {
+    'MatMIE': 45,
+    'MatDAIS': 50,
+    'COMIE': 40,
+    'COMEC': 35
+}
+
+# Creating a pandas Series from the dictionary
+students_series = pd.Series(students_dict)
+
+# Displaying the Series
+print(students_series)
+
+```
+
+### **Output:**
+
+```
+MatMIE    45
+MatDAIS   50
+COMIE     40
+COMEC     35
+dtype: int64
+
+```
+
+This **Series** stores the number of students in different fresh batch groups, with the batch names as **index** and the student count as **values**. 🚀
