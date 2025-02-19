@@ -2,9 +2,6 @@
 
 You can create a Series from a **Python list**.
 
-```python
-python
-CopyEdit
 import pandas as pd
 
 data = [10, 20, 30, 40]
@@ -17,9 +14,7 @@ print(series)
 
 A Series can be created from a **NumPy array**.
 
-```python
-python
-CopyEdit
+
 import numpy as np
 
 arr = np.array([1, 2, 3, 4])
@@ -32,9 +27,7 @@ print(series)
 
 A Series can be created from a **dictionary**, where keys become the index.
 
-```python
-python
-CopyEdit
+
 data = {"a": 100, "b": 200, "c": 300}
 series = pd.Series(data)
 print(series)
@@ -45,9 +38,7 @@ print(series)
 
 You can create a Series with a single repeated value.
 
-```python
-python
-CopyEdit
+
 series = pd.Series(5, index=[0, 1, 2, 3])
 print(series)
 
@@ -57,9 +48,7 @@ print(series)
 
 A tuple can also be used to create a Series.
 
-```python
-python
-CopyEdit
+
 data = (10, 20, 30, 40)
 series = pd.Series(data)
 print(series)
@@ -70,9 +59,7 @@ print(series)
 
 You can create a new Series from an existing **pandas Series**.
 
-```python
-python
-CopyEdit
+
 old_series = pd.Series([5, 10, 15])
 new_series = pd.Series(old_series)
 print(new_series)
