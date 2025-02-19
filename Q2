@@ -2,9 +2,7 @@ You can create a **pandas Series** where the month's numbers are the data, and t
 
 ### **Python Code:**
 
-```python
-python
-CopyEdit
+
 import pandas as pd
 
 # Creating a Series with month numbers as data and month names as index
