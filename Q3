@@ -2,7 +2,6 @@ Here is a **Python program** that creates a **pandas Series** using a dictionary
 
 ### **Python Code:**
 
-```python
 
 import pandas as pd
 
